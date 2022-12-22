@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiestas infantiles</title>
+	<link rel="stylesheet" href="Fiestas infantiles.css">
+	<link rel="shortcut icon" href="IMAGENES/Icono-removebg-preview.png" type="image/x-icon">
+	<script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+		<img class="logo" src="IMAGENES/logo termi.png" alt="">
+		<nav>
+			<ul>
+                <li><a href="index.html">Inicio</a></li>
+				<li><a href="#">Fiestas Infantiles</a></li>
+				<li><a href="Fiestas tematicas.html">Fiestas tematicas</a></li>
+				<li><a href="Contactos.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="zona1"></section>
+	
+<br><br><br><br><br><br><br>
+
+	<h1 align="center">FIESTAS INFANTILES</h1>
+
+
+<!--Efecto zoom a una imagen-->
+<div class="container">
+	<div class="box">
+		<a href="Los Increibles.html">
+			<img src="Sub pagina web/f7.jpg">
+			<div class="capa">
+				<h2>Los Increibles</h2>
+			</div>
+		</a>
+	</div>
+	
+	<div class="box">
+		<a href="Miracolous.html">
+			<img src="Sub pagina web/f5.jpg">
+			<div class="capa">
+				<h2>Miraculous</h2>
+			</div>
+		</a>
+	</div>
+	
+	<div class="box">
+		<a href="Akatsuki.html">
+			<img src="Sub pagina web/a13.jpg">
+			<div class="capa">
+				<h2>Akatsuki</h2>
+			</div>
+		</a>
+	</div>
+</div>
+
+<!--Efecto zoom a una imagen 2-->
+<div class="container">
+	<div class="box">
+		<a href="Pocoyo.html">
+			<img src="Sub pagina web/f2.jpg">
+			<div class="capa">
+				<h2>Pocoyó</h2>
+			</div>
+		</a>
+	</div>
+	
+	<div class="box">
+		<a href="Los minioms.html">
+			<img src="Sub pagina web/f6.jpg">
+			<div class="capa">
+				<h2>Los Minions</h2>
+			</div>
+		</a>
+	</div>
+	
+	<div class="box">
+		<a href="Cenicienta.html">
+			<img src="Sub pagina web/f8.jpg">
+			<div class="capa">
+				<h2>Cenicienta</h2>
+			</div>
+		</a>
+	</div>
+</div>
+
+	<!--Formulario de contactos-->
+	<div class="container-form">
+        <div class="info-form">
+            <h2>Contáctanos</h2>
+			<p>Con gusto nos pondremos en contacto contigo. Mientras tanto, te invitamos a compartirnos tu duda, pregunta o solicitud. ¡Gracias!.</p>
+            <a href="#"><i class="fa fa-phone"></i> 923-456-789</a>
+            <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox"><i class="fa fa-envelope"></i> Cloudmagic@gmail.com</a>
+            <a href="#"><i class="fa fa-map-marked"></i> Ilave, Perú</a>
+        </div>
+        <form action="#" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+            <input type="emal" name="email" placeholder="Tu Email" class="campo">
+            <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+
+	
+
+<br>
+    </section>
+
+	<script type="text/javascript">
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("header");
+			header.classList.toggle("abajo",window.scrollY>0);
+		})
+	</script>
+</body>
+</html>

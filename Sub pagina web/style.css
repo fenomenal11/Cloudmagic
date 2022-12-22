@@ -1,0 +1,38 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 55px;
+    color: rgb(102, 0, 0);
+    transition: all 300ms;
+}
+h1:hover{
+    transform: scale(1.15);
+}
+#tema{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: 20%;
+    grid-gap: 80px;
+}
+
+#tema img{
+    width: 100%;
+    transition: all 200ms;
+    position: relative;
+}
+
+#tema img:hover{
+    transform: scale(1.15);
+}
+
+#logo{
+    width: 15%;
+}
+Footer
+© 2022 senpai, Inc.
